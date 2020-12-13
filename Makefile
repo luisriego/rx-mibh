@@ -8,7 +8,7 @@ help: ## Show this help message
 
 run: ## Start the containers
 	cp -n .env.development.dist .env.development || true
-	docker-compose up -d
+	docker-compose up -d --remove-orphans
 
 stop: ## Stop the containers
 	docker-compose stop
@@ -20,13 +20,13 @@ build: ## Rebuilds all the containers
 	docker-compose build
 
 ssh: ## SSH into the Node container
-	docker exec -it crypto-coin bash
+	docker exec -it mibh2-front bash
 
 install-dependencies: ## Install dependencies
-	docker exec -it crypto-coin npm install
+	docker exec -it mibh2-front npm install
 
 start-dev: ## Runs local development server
-	docker exec -it crypto-coin npm run start
+	docker exec -it mibh2-front npm run start
 
 prod-build:
-	docker exec -it crypto-coin npm run build
+	docker exec -it mibh2-front npm run build

@@ -3,7 +3,7 @@ version: '3.5'
 services:
   node:
     image: node:12
-    container_name: mibh-front
+    container_name: mibh2-front
     ports:
       - 3000:3000
     volumes:

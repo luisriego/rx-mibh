@@ -1,0 +1,11 @@
+@import './base/settings';
+
+@import './base//base';
+
+@import '~font-awesome/scss/font-awesome';
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~animate.css/animate';
+
+// components
+@import './components/auth';
+@import './components/navbar'
