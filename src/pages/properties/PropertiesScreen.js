@@ -183,7 +183,7 @@ export const PropertiesScreen = () => {
                                         <ul>
                                         <li>
                                             <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img src="assets/img/demo/small-property-2.jpg" /></a>
+                                                <a href="single.html"><img alt="" src="assets/img/demo/small-property-2.jpg" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -196,7 +196,7 @@ export const PropertiesScreen = () => {
                                         </li>
                                         <li>
                                             <div className="col-md-3 col-sm-3  col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img src="assets/img/demo/small-property-1.jpg" /></a>
+                                                <a href="single.html"><img alt="" src="assets/img/demo/small-property-1.jpg" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -209,7 +209,7 @@ export const PropertiesScreen = () => {
                                         </li>
                                         <li>
                                             <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img src="assets/img/demo/small-property-3.jpg" /></a>
+                                                <a href="single.html"><img alt="" src="assets/img/demo/small-property-3.jpg" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -223,7 +223,7 @@ export const PropertiesScreen = () => {
 
                                         <li>
                                             <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img src="assets/img/demo/small-property-2.jpg" /></a>
+                                                <a href="single.html"><img alt="" src="assets/img/demo/small-property-2.jpg" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -246,12 +246,12 @@ export const PropertiesScreen = () => {
                         <div className="col-xs-10 page-subheader sorting pl0">
                             <ul className="sort-by-list">
                                 <li className="active">
-                                    <a href="javascript:void(0);" className="order_by_date" data-orderby="property_date" data-order="ASC">
+                                    <a href="https://google.com" className="order_by_date" data-orderby="property_date" data-order="ASC">
                                         Property Date <i className="fa fa-sort-amount-asc"></i>					
                                     </a>
                                 </li>
                                 <li className="">
-                                    <a href="javascript:void(0);" className="order_by_price" data-orderby="property_price" data-order="DESC">
+                                    <a href="https://google.com" className="order_by_price" data-orderby="property_price" data-order="DESC">
                                         Property Price <i className="fa fa-sort-numeric-desc"></i>						
                                     </a>
                                 </li>
@@ -275,8 +275,8 @@ export const PropertiesScreen = () => {
                         </div>
 
                         <div className="col-xs-2 layout-switcher">
-                            <a className="layout-list" href="javascript:void(0);"> <i className="fa fa-th-list"></i>  </a>
-                            <a className="layout-grid active" href="javascript:void(0);"> <i className="fa fa-th"></i> </a>                          
+                            <a className="layout-list" href="https://google.com"> <i className="fa fa-th-list"></i>  </a>
+                            <a className="layout-grid active" href="https://google.com"> <i className="fa fa-th"></i> </a>                          
                         </div>
                     </div>
 
@@ -285,7 +285,7 @@ export const PropertiesScreen = () => {
                             <div className="col-sm-6 col-md-4 p0">
                                     <div className="box-two proerty-item">
                                         <div className="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-3.jpg" /></a>
+                                            <a href="property-1.html" ><img alt="" src="assets/img/demo/property-3.jpg" /></a>
                                         </div>
 
                                         <div className="item-entry overflow">
@@ -295,9 +295,9 @@ export const PropertiesScreen = () => {
                                             <span className="proerty-price pull-right"> $ 300,000</span>
                                             <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div className="property-icon">
-                                                <img src="assets/img/icon/bed.png" />(5)|
-                                                <img src="assets/img/icon/shawer.png" />(2)|
-                                                <img src="assets/img/icon/cars.png" />(1)  
+                                                <img alt="" src="assets/img/icon/bed.png" />(5)|
+                                                <img alt="" src="assets/img/icon/shawer.png" />(2)|
+                                                <img alt="" src="assets/img/icon/cars.png" />(1)  
                                             </div>
                                         </div>
 
@@ -308,7 +308,7 @@ export const PropertiesScreen = () => {
                                 <div className="col-sm-6 col-md-4 p0">
                                     <div className="box-two proerty-item">
                                         <div className="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-2.jpg" /></a>
+                                            <a href="property-1.html" ><img alt="" src="assets/img/demo/property-2.jpg" /></a>
                                         </div>
 
                                         <div className="item-entry overflow">
@@ -318,30 +318,9 @@ export const PropertiesScreen = () => {
                                             <span className="proerty-price pull-right"> $ 300,000</span>
                                             <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div className="property-icon">
-                                                <img src="assets/img/icon/bed.png" />(5)|
-                                                <img src="assets/img/icon/shawer.png" />(2)|
-                                                <img src="assets/img/icon/cars.png" />(1)  
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div> 
-
-                                <div className="col-sm-6 col-md-4 p0">
-                                    <div className="box-two proerty-item">
-                                        <div className="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-1.jpg" /></a>
-                                        </div>
-
-                                        <div className="item-entry overflow">
-                                            <h5><a href="property-1.html"> Super nice villa </a></h5>
-                                            <div className="dot-hr"></div>
-                                            <span className="pull-left"><b> Area :</b> 120m </span>
-                                            <span className="proerty-price pull-right"> $ 300,000</span>
-                                            <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
-                                            <div className="property-icon">
-                                                <img src="assets/img/icon/bed.png" />(5)|
-                                                <img src="assets/img/icon/shawer.png" />(2)|
-                                                <img src="assets/img/icon/cars.png" />(1)  
+                                                <img alt="" src="assets/img/icon/bed.png" />(5)|
+                                                <img alt="" src="assets/img/icon/shawer.png" />(2)|
+                                                <img alt="" src="assets/img/icon/cars.png" />(1)  
                                             </div>
                                         </div> 
                                     </div>
@@ -350,7 +329,7 @@ export const PropertiesScreen = () => {
                                 <div className="col-sm-6 col-md-4 p0">
                                     <div className="box-two proerty-item">
                                         <div className="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-3.jpg" /></a>
+                                            <a href="property-1.html" ><img alt="" src="assets/img/demo/property-1.jpg" /></a>
                                         </div>
 
                                         <div className="item-entry overflow">
@@ -360,9 +339,9 @@ export const PropertiesScreen = () => {
                                             <span className="proerty-price pull-right"> $ 300,000</span>
                                             <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div className="property-icon">
-                                                <img src="assets/img/icon/bed.png" />(5)|
-                                                <img src="assets/img/icon/shawer.png" />(2)|
-                                                <img src="assets/img/icon/cars.png" />(1)  
+                                                <img alt="" src="assets/img/icon/bed.png" />(5)|
+                                                <img alt="" src="assets/img/icon/shawer.png" />(2)|
+                                                <img alt="" src="assets/img/icon/cars.png" />(1)  
                                             </div>
                                         </div> 
                                     </div>
@@ -371,7 +350,7 @@ export const PropertiesScreen = () => {
                                 <div className="col-sm-6 col-md-4 p0">
                                     <div className="box-two proerty-item">
                                         <div className="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-1.jpg" /></a>
+                                            <a href="property-1.html" ><img alt="" src="assets/img/demo/property-3.jpg" /></a>
                                         </div>
 
                                         <div className="item-entry overflow">
@@ -381,31 +360,9 @@ export const PropertiesScreen = () => {
                                             <span className="proerty-price pull-right"> $ 300,000</span>
                                             <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div className="property-icon">
-                                                <img src="assets/img/icon/bed.png" />(5)|
-                                                <img src="assets/img/icon/shawer.png" />(2)|
-                                                <img src="assets/img/icon/cars.png" />(1)  
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div> 
-
-                                <div className="col-sm-6 col-md-4 p0">
-                                    <div className="box-two proerty-item">
-                                        <div className="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-2.jpg" /></a>
-                                        </div>
-
-                                        <div className="item-entry overflow">
-                                            <h5><a href="property-1.html"> Super nice villa </a></h5>
-                                            <div className="dot-hr"></div>
-                                            <span className="pull-left"><b> Area :</b> 120m </span>
-                                            <span className="proerty-price pull-right"> $ 300,000</span>
-                                            <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
-                                            <div className="property-icon">
-                                                <img src="assets/img/icon/bed.png" />(5)|
-                                                <img src="assets/img/icon/shawer.png" />(2)|
-                                                <img src="assets/img/icon/cars.png" />(1)  
+                                                <img alt="" src="assets/img/icon/bed.png" />(5)|
+                                                <img alt="" src="assets/img/icon/shawer.png" />(2)|
+                                                <img alt="" src="assets/img/icon/cars.png" />(1)  
                                             </div>
                                         </div> 
                                     </div>
@@ -414,7 +371,7 @@ export const PropertiesScreen = () => {
                                 <div className="col-sm-6 col-md-4 p0">
                                     <div className="box-two proerty-item">
                                         <div className="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-3.jpg" /></a>
+                                            <a href="property-1.html" ><img alt="" src="assets/img/demo/property-1.jpg" /></a>
                                         </div>
 
                                         <div className="item-entry overflow">
@@ -424,9 +381,31 @@ export const PropertiesScreen = () => {
                                             <span className="proerty-price pull-right"> $ 300,000</span>
                                             <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div className="property-icon">
-                                                <img src="assets/img/icon/bed.png" />(5)|
-                                                <img src="assets/img/icon/shawer.png" />(2)|
-                                                <img src="assets/img/icon/cars.png" />(1)  
+                                                <img alt="" src="assets/img/icon/bed.png" />(5)|
+                                                <img alt="" src="assets/img/icon/shawer.png" />(2)|
+                                                <img alt="" src="assets/img/icon/cars.png" />(1)  
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div> 
+
+                                <div className="col-sm-6 col-md-4 p0">
+                                    <div className="box-two proerty-item">
+                                        <div className="item-thumb">
+                                            <a href="property-1.html" ><img alt="" src="assets/img/demo/property-2.jpg" /></a>
+                                        </div>
+
+                                        <div className="item-entry overflow">
+                                            <h5><a href="property-1.html"> Super nice villa </a></h5>
+                                            <div className="dot-hr"></div>
+                                            <span className="pull-left"><b> Area :</b> 120m </span>
+                                            <span className="proerty-price pull-right"> $ 300,000</span>
+                                            <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
+                                            <div className="property-icon">
+                                                <img alt="" src="assets/img/icon/bed.png" />(5)|
+                                                <img alt="" src="assets/img/icon/shawer.png" />(2)|
+                                                <img alt="" src="assets/img/icon/cars.png" />(1)  
                                             </div>
                                         </div> 
                                     </div>
@@ -435,7 +414,7 @@ export const PropertiesScreen = () => {
                                 <div className="col-sm-6 col-md-4 p0">
                                     <div className="box-two proerty-item">
                                         <div className="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-2.jpg" /></a>
+                                            <a href="property-1.html" ><img alt="" src="assets/img/demo/property-3.jpg" /></a>
                                         </div>
 
                                         <div className="item-entry overflow">
@@ -445,9 +424,9 @@ export const PropertiesScreen = () => {
                                             <span className="proerty-price pull-right"> $ 300,000</span>
                                             <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div className="property-icon">
-                                                <img src="assets/img/icon/bed.png" />(5)|
-                                                <img src="assets/img/icon/shawer.png" />(2)|
-                                                <img src="assets/img/icon/cars.png" />(1)  
+                                                <img alt="" src="assets/img/icon/bed.png" />(5)|
+                                                <img alt="" src="assets/img/icon/shawer.png" />(2)|
+                                                <img alt="" src="assets/img/icon/cars.png" />(1)  
                                             </div>
                                         </div> 
                                     </div>
@@ -456,7 +435,7 @@ export const PropertiesScreen = () => {
                                 <div className="col-sm-6 col-md-4 p0">
                                     <div className="box-two proerty-item">
                                         <div className="item-thumb">
-                                            <a href="property-1.html" ><img src="assets/img/demo/property-1.jpg" /></a>
+                                            <a href="property-1.html" ><img alt="" src="assets/img/demo/property-2.jpg" /></a>
                                         </div>
 
                                         <div className="item-entry overflow">
@@ -466,9 +445,30 @@ export const PropertiesScreen = () => {
                                             <span className="proerty-price pull-right"> $ 300,000</span>
                                             <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
                                             <div className="property-icon">
-                                                <img src="assets/img/icon/bed.png" />(5)|
-                                                <img src="assets/img/icon/shawer.png" />(2)|
-                                                <img src="assets/img/icon/cars.png" />(1)  
+                                                <img alt="" src="assets/img/icon/bed.png" />(5)|
+                                                <img alt="" src="assets/img/icon/shawer.png" />(2)|
+                                                <img alt="" src="assets/img/icon/cars.png" />(1)  
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div> 
+
+                                <div className="col-sm-6 col-md-4 p0">
+                                    <div className="box-two proerty-item">
+                                        <div className="item-thumb">
+                                            <a href="property-1.html" ><img alt="" src="assets/img/demo/property-1.jpg" /></a>
+                                        </div>
+
+                                        <div className="item-entry overflow">
+                                            <h5><a href="property-1.html"> Super nice villa </a></h5>
+                                            <div className="dot-hr"></div>
+                                            <span className="pull-left"><b> Area :</b> 120m </span>
+                                            <span className="proerty-price pull-right"> $ 300,000</span>
+                                            <p /* style="display: none;" */>Suspendisse ultricies Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium ...</p>
+                                            <div className="property-icon">
+                                                <img alt="" src="assets/img/icon/bed.png" />(5)|
+                                                <img alt="" src="assets/img/icon/shawer.png" />(2)|
+                                                <img alt="" src="assets/img/icon/cars.png" />(1)  
                                             </div>
                                         </div> 
                                     </div>
@@ -480,12 +480,12 @@ export const PropertiesScreen = () => {
                         <div className="pull-right">
                             <div className="pagination">
                                 <ul>
-                                    <li><a href="#">Prev</a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">Next</a></li>
+                                    <li><a href="https://google.com">Prev</a></li>
+                                    <li><a href="https://google.com">1</a></li>
+                                    <li><a href="https://google.com">2</a></li>
+                                    <li><a href="https://google.com">3</a></li>
+                                    <li><a href="https://google.com">4</a></li>
+                                    <li><a href="https://google.com">Next</a></li>
                                 </ul>
                             </div>
                         </div>                

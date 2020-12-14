@@ -25,7 +25,7 @@ export const Navbar = () => {
                 <div className="collapse navbar-collapse yamm" id="navigation">
                     <div className="button navbar-right">
                         <NavLink className="navbar-btn nav-button wow bounceInRight login navbar__like-button" to="/login">Login</NavLink>
-                        <NavLink className="navbar-btn nav-button wow fadeInRight navbar__like-button" to="/">Submit</NavLink>
+                        <NavLink className="navbar-btn nav-button wow fadeInRight navbar__like-button" to="/submit_property">Submit</NavLink>
                     </div>
                     <ul className="main-nav nav navbar-nav navbar-right">
                         <li className="wow fadeInDown" data-wow-delay="0.2s">

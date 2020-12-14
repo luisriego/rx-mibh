@@ -3,9 +3,13 @@
 @import './base//base';
 
 @import '~font-awesome/scss/font-awesome';
+@import '~pe7-icon/dist/scss/pe-icon-7-stroke';
 @import '~bootstrap/dist/css/bootstrap.css';
-@import '~animate.css/animate';
+@import '~animate.css/animate.css';
+@import './base/wizard';
+@import '~react-alice-carousel/lib/scss/alice-carousel';
 
 // components
 @import './components/auth';
-@import './components/navbar'
+@import './components/navbar';
+@import './components/home';

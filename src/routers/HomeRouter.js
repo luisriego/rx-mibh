@@ -5,6 +5,7 @@ import { LoginScreen } from '../pages/auth/LoginScreen';
 import { NotFoundScreen } from '../pages/exceptions/NotFoundScreen';
 import { PropertiesScreen } from '../pages/properties/PropertiesScreen';
 import { PropertyDetailScreen } from '../pages/properties/PropertyDetailScreen';
+import { SubmitPropertyScreen } from '../pages/properties/SubmitPropertyScreen';
 
 export const HomeRouter = () => {
     return (
@@ -25,6 +26,11 @@ export const HomeRouter = () => {
                     exact
                     path="/property/:id"
                     component={ PropertyDetailScreen }
+                />
+                <Route 
+                    exact
+                    path="/submit_property"
+                    component={ SubmitPropertyScreen }
                 />
                 <Route 
                     path="/404"

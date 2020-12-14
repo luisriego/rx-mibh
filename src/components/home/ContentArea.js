@@ -16,7 +16,7 @@ export const ContentArea = () => {
                         <div className="col-sm-6 col-md-3 p0">
                             <div className="box-two proerty-item">
                                 <div className="item-thumb">
-                                    <a href="property-1.html" ><img src="assets/img/demo/property-1.jpg" /></a>
+                                    <a href="property-1.html" ><img alt="" src="assets/img/demo/property-1.jpg" /></a>
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5><a href="property-1.html" >Super nice villa </a></h5>
@@ -30,7 +30,7 @@ export const ContentArea = () => {
                         <div className="col-sm-6 col-md-3 p0">
                             <div className="box-two proerty-item">
                                 <div className="item-thumb">
-                                    <a href="property-2.html" ><img src="assets/img/demo/property-2.jpg" /></a>
+                                    <a href="property-2.html" ><img alt="" src="assets/img/demo/property-2.jpg" /></a>
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5><a href="property-2.html" >Super nice villa </a></h5>
@@ -44,7 +44,7 @@ export const ContentArea = () => {
                         <div className="col-sm-6 col-md-3 p0">
                             <div className="box-two proerty-item">
                                 <div className="item-thumb">
-                                    <a href="property-3.html" ><img src="assets/img/demo/property-3.jpg" /></a>
+                                    <a href="property-3.html" ><img alt="" src="assets/img/demo/property-3.jpg" /></a>
 
                                 </div>
                                 <div className="item-entry overflow">
@@ -59,7 +59,7 @@ export const ContentArea = () => {
                         <div className="col-sm-6 col-md-3 p0">
                             <div className="box-two proerty-item">
                                 <div className="item-thumb">
-                                    <a href="property-1.html" ><img src="assets/img/demo/property-4.jpg" /></a>
+                                    <a href="property-1.html" ><img alt="" src="assets/img/demo/property-4.jpg" /></a>
 
                                 </div>
                                 <div className="item-entry overflow">
@@ -75,7 +75,7 @@ export const ContentArea = () => {
                         <div className="col-sm-6 col-md-3 p0">
                             <div className="box-two proerty-item">
                                 <div className="item-thumb">
-                                    <a href="property-3.html" ><img src="assets/img/demo/property-2.jpg" /></a>
+                                    <a href="property-3.html" ><img alt="" src="assets/img/demo/property-2.jpg" /></a>
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5><a href="property-3.html" >Super nice villa </a></h5>
@@ -89,7 +89,7 @@ export const ContentArea = () => {
                         <div className="col-sm-6 col-md-3 p0">
                             <div className="box-two proerty-item">
                                 <div className="item-thumb">
-                                    <a href="property-2.html" ><img src="assets/img/demo/property-4.jpg" /></a>
+                                    <a href="property-2.html" ><img alt="" src="assets/img/demo/property-4.jpg" /></a>
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5><a href="property-2.html" >Super nice villa </a></h5>
@@ -103,7 +103,7 @@ export const ContentArea = () => {
                         <div className="col-sm-6 col-md-3 p0">
                             <div className="box-two proerty-item">
                                 <div className="item-thumb">
-                                    <a href="property-1.html" ><img src="assets/img/demo/property-3.jpg" /></a>
+                                    <a href="property-1.html" ><img alt="" src="assets/img/demo/property-3.jpg" /></a>
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5><a href="property-1.html" >Super nice villa </a></h5>

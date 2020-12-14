@@ -14,23 +14,23 @@ export const PropertyDetailScreen = () => {
                                         <a className="add-to-fav" href="#login-modal" data-toggle="modal">
                                             <i className="fa fa-star-o"></i>
                                         </a>
-                                        <a className="printer-icon " href="#">
+                                        <a className="printer-icon " href="https://google.com">
                                             <i className="fa fa-print"></i> 
                                         </a>
                                     </div> 
 
                                     <ul id="image-gallery" className="gallery list-unstyled cS-hidden">
                                         <li data-thumb="assets/img/property-1/property1.jpg"> 
-                                            <img src="assets/img/property-1/property1.jpg" />
+                                            <img src="assets/img/property-1/property1.jpg" alt="" />
                                         </li>
                                         <li data-thumb="img/property-1/property2.jpg"> 
-                                            <img src="assets/img/property-1/property3.jpg" />
+                                            <img src="assets/img/property-1/property3.jpg" alt="" />
                                         </li>
                                         <li data-thumb="assets/img/property-1/property3.jpg"> 
-                                            <img src="assets/img/property-1/property3.jpg" />
+                                            <img src="assets/img/property-1/property3.jpg" alt="" />
                                         </li>
                                         <li data-thumb="assets/img/property-1/property4.jpg"> 
-                                            <img src="assets/img/property-1/property4.jpg" />
+                                            <img src="assets/img/property-1/property4.jpg" alt="" />
                                         </li>                                         
                                     </ul>
                                 </div>
@@ -185,29 +185,29 @@ export const PropertyDetailScreen = () => {
 
                                         <div className="clear">
                                             <div className="col-xs-4 col-sm-4 dealer-face">
-                                                <a href="">
-                                                    <img src="assets/img/client-face1.png" className="img-circle" />
+                                                <a href="https://google.com">
+                                                    <img src="assets/img/client-face1.png" className="img-circle" alt="" />
                                                 </a>
                                             </div>
                                             <div className="col-xs-8 col-sm-8 ">
                                                 <h3 className="dealer-name">
-                                                    <a href="">Nathan James</a>
+                                                    <a href="https://google.com">Nathan James</a>
                                                     <span>Real Estate Agent</span>        
                                                 </h3>
                                                 <div className="dealer-social-media">
-                                                    <a className="twitter" target="_blank" href="">
+                                                    <a className="twitter" target="_blank" rel="noopener noreferrer" href="https://google.com">
                                                         <i className="fa fa-twitter"></i>
                                                     </a>
-                                                    <a className="facebook" target="_blank" href="">
+                                                    <a className="facebook" target="_blank" rel="noopener noreferrer" href="https://google.com">
                                                         <i className="fa fa-facebook"></i>
                                                     </a>
-                                                    <a className="gplus" target="_blank" href="">
+                                                    <a className="gplus" target="_blank" rel="noopener noreferrer" href="https://google.com">
                                                         <i className="fa fa-google-plus"></i>
                                                     </a>
-                                                    <a className="linkedin" target="_blank" href="">
+                                                    <a className="linkedin" target="_blank" rel="noopener noreferrer" href="https://google.com">
                                                         <i className="fa fa-linkedin"></i>
                                                     </a> 
-                                                    <a className="instagram" target="_blank" href="">
+                                                    <a className="instagram" target="_blank" rel="noopener noreferrer" href="https://google.com">
                                                         <i className="fa fa-instagram"></i>
                                                     </a>       
                                                 </div>
@@ -237,7 +237,7 @@ export const PropertyDetailScreen = () => {
                                     <ul>
                                         <li>
                                             <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img src="assets/img/demo/small-property-2.jpg" /></a>
+                                                <a href="single.html"><img src="assets/img/demo/small-property-2.jpg" alt="" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -250,7 +250,7 @@ export const PropertyDetailScreen = () => {
                                         </li>
                                         <li>
                                             <div className="col-md-3 col-sm-3  col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img src="assets/img/demo/small-property-1.jpg" /></a>
+                                                <a href="single.html"><img src="assets/img/demo/small-property-1.jpg" alt="" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -263,7 +263,7 @@ export const PropertyDetailScreen = () => {
                                         </li>
                                         <li>
                                             <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img src="assets/img/demo/small-property-3.jpg" /></a>
+                                                <a href="single.html"><img src="assets/img/demo/small-property-3.jpg" alt="" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -277,7 +277,7 @@ export const PropertyDetailScreen = () => {
 
                                         <li>
                                             <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img src="assets/img/demo/small-property-2.jpg" /></a>
+                                                <a href="single.html"><img src="assets/img/demo/small-property-2.jpg" alt="" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -300,7 +300,7 @@ export const PropertyDetailScreen = () => {
                                     <h3 className="panel-title">Ads her  </h3>
                                 </div>
                                 <div className="panel-body recent-property-widget">
-                                    <img src="assets/img/ads.jpg" />
+                                    <img src="assets/img/ads.jpg" alt="" />
                                 </div>
                             </div>
 
