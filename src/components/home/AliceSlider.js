@@ -21,7 +21,7 @@ export const AliceSlider = () => {
             <div className="slider-content">
                 <div className="row">
                     <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-                        <h2>{ title }</h2>
+                        <h2 className="home__shadow">{ title }</h2>
                         <p>{subTitle}</p>
                         <div className="search-form wow pulse" data-wow-delay="0.8s">
 

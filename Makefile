@@ -13,6 +13,9 @@ run: ## Start the containers
 stop: ## Stop the containers
 	docker-compose stop
 
+stop-all: ## Stop all the containers in system
+	docker rm $(docker ps -aq)
+
 restart: ## Restart the containers
 	$(MAKE) stop && $(MAKE) run
 
