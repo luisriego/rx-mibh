@@ -1,13 +1,14 @@
 import React from 'react';
+import { ReactTabs } from '../../components/submit/ReactTabs';
 
-const elWidth = {
-    width: 100/4 + '%'
-};
+// const elWidth = {
+//     width: 100/4 + '%'
+// };
 
-const tabs = {
-    tab1: 'Proprietário',
-    tab2: 'Dados básicos',
-}
+// const tabs = {
+//     tab1: 'Proprietário',
+//     tab2: 'Dados básicos',
+// }
 
 export const SubmitPropertyScreen = () => {
     return (
@@ -17,13 +18,15 @@ export const SubmitPropertyScreen = () => {
                     <div className="wizard-container"> 
 
                         <div className="wizard-card ct-wizard-orange" id="wizardProperty">
-                            <form>                        
+                            <ReactTabs />
+                            {/* <form>                        
                                 <div className="wizard-header">
                                     <h3>
                                         <b>Submit</b> YOUR PROPERTY <br />
                                         <small>Lorem ipsum dolor sit amet, consectetur adipisicing.</small>
                                     </h3>
                                 </div>
+
 
                                 <ul className="nav nav-pills">
                                     <li className="active" style={ elWidth }><a href="#step1" data-toggle="tab">{ tabs.tab1 } </a></li>
@@ -307,8 +310,8 @@ export const SubmitPropertyScreen = () => {
                                     </div>
                                     <div className="clearfix"></div>                                            
                                 </div>	
-                            </form>
-                        </div>
+                            </form> */}
+                        </div> 
                     </div> 
                 </div>
             </div>

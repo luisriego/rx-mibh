@@ -25,6 +25,7 @@ $(document).ready(function () {
 
         },
         onNext: function (tab, navigation, index) {
+            console.log(index);
             if (index == 1) {
                 return validateFirstStep();
             } else if (index == 2) {
@@ -188,16 +189,3 @@ function readURL(input) {
         reader.readAsDataURL(input.files[0]);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

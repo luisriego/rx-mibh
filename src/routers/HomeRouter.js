@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route, Redirect } from "react-router-dom";
 import { PageHead } from '../components/main/PageHead';
 import { LoginScreen } from '../pages/auth/LoginScreen';
+import { RegisterScreen } from '../pages/auth/RegisterScreen';
 import { NotFoundScreen } from '../pages/exceptions/NotFoundScreen';
 import { PropertiesScreen } from '../pages/properties/PropertiesScreen';
 import { PropertyDetailScreen } from '../pages/properties/PropertyDetailScreen';
@@ -15,7 +16,12 @@ export const HomeRouter = () => {
                 <Route 
                     exact
                     path="/login"
-                    component={ LoginScreen }
+                    component={ RegisterScreen }
+                />
+                <Route 
+                    exact
+                    path="/register"
+                    component={ RegisterScreen }
                 />
                 <Route 
                     exact
