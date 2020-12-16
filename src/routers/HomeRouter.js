@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from "react-router-dom";
+
 import { PageHead } from '../components/main/PageHead';
-import { LoginScreen } from '../pages/auth/LoginScreen';
 import { RegisterScreen } from '../pages/auth/RegisterScreen';
 import { NotFoundScreen } from '../pages/exceptions/NotFoundScreen';
 import { PropertiesScreen } from '../pages/properties/PropertiesScreen';

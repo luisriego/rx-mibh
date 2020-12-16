@@ -51,7 +51,7 @@ export const Footer = () => {
                                         </div>
                                         <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
                                             <h6> <a href="http://www/google.com">Add news functions </a></h6> 
-                                            <p /* style="line-height: 17px; padding: 8px 2px;" */>Lorem ipsum dolor sit amet, nulla ...</p>
+                                            <p className="main__footer-blog">Lorem ipsum dolor sit amet, nulla ...</p>
                                         </div>
                                     </li> 
 
@@ -65,7 +65,7 @@ export const Footer = () => {
                                         </div>
                                         <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
                                             <h6> <a href="http://www/google.com">Add news functions </a></h6> 
-                                            <p s/* tyle="line-height: 17px; padding: 8px 2px;" */>Lorem ipsum dolor sit amet, nulla ...</p>
+                                            <p className="main__footer-blog">Lorem ipsum dolor sit amet, nulla ...</p>
                                         </div>
                                     </li> 
 
@@ -79,7 +79,7 @@ export const Footer = () => {
                                         </div>
                                         <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
                                             <h6> <a href="http://www/google.com">Add news functions </a></h6> 
-                                            <p /* style="line-height: 17px; padding: 8px 2px;" */>Lorem ipsum dolor sit amet, nulla ...</p>
+                                            <p className="main__footer-blog">Lorem ipsum dolor sit amet, nulla ...</p>
                                         </div>
                                     </li> 
 

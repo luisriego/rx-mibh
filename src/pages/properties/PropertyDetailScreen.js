@@ -348,7 +348,7 @@ export const PropertyDetailScreen = () => {
                                         <fieldset className="padding-5">
                                             <div className="row">
                                                 <div className="col-xs-6">
-                                                    <label for="price-range">Price range ($):</label>
+                                                    <label htmlFor="price-range">Price range ($):</label>
                                                     <input type="text" className="span2" value="" data-slider-min="0" 
                                                            data-slider-max="600" data-slider-step="5" 
                                                            data-slider-value="[0,450]" id="price-range" /><br />
@@ -356,7 +356,7 @@ export const PropertyDetailScreen = () => {
                                                     <b className="pull-right color">100000$</b>                                                
                                                 </div>
                                                 <div className="col-xs-6">
-                                                    <label for="property-geo">Property geo (m2) :</label>
+                                                    <label htmlFor="property-geo">Property geo (m2) :</label>
                                                     <input type="text" className="span2" value="" data-slider-min="0" 
                                                            data-slider-max="600" data-slider-step="5" 
                                                            data-slider-value="[50,450]" id="property-geo" /><br />
@@ -369,7 +369,7 @@ export const PropertyDetailScreen = () => {
                                         <fieldset className="padding-5">
                                             <div className="row">
                                                 <div className="col-xs-6">
-                                                    <label for="price-range">Min baths :</label>
+                                                    <label htmlFor="price-range">Min baths :</label>
                                                     <input type="text" className="span2" value="" data-slider-min="0" 
                                                            data-slider-max="600" data-slider-step="5" 
                                                            data-slider-value="[250,450]" id="min-baths" /><br />
@@ -378,7 +378,7 @@ export const PropertyDetailScreen = () => {
                                                 </div>
 
                                                 <div className="col-xs-6">
-                                                    <label for="property-geo">Min bed :</label>
+                                                    <label htmlFor="property-geo">Min bed :</label>
                                                     <input type="text" className="span2" value="" data-slider-min="0" 
                                                            data-slider-max="600" data-slider-step="5" 
                                                            data-slider-value="[250,450]" id="min-bed" /><br />

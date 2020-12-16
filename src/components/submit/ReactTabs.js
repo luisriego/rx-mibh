@@ -176,7 +176,7 @@ export const ReactTabs = () => {
                         <div className="col-sm-12 padding-top-15">                                                   
                             <div className="col-sm-4">
                                 <div className="form-group">
-                                    <label for="property-geo">Min bed :</label>
+                                    <label htmlFor="property-geo">Min bed :</label>
                                     <input type="text" className="span2" value="" data-slider-min="0" 
                                             data-slider-max="600" data-slider-step="5" 
                                             data-slider-value="[250,450]" id="min-bed" /><br />
@@ -187,7 +187,7 @@ export const ReactTabs = () => {
                             <div className="col-sm-4">
 
                                 <div className="form-group">
-                                    <label for="price-range">Min baths :</label>
+                                    <label htmlFor="price-range">Min baths :</label>
                                     <input type="text" className="span2" value="" data-slider-min="0" 
                                             data-slider-max="600" data-slider-step="5" 
                                             data-slider-value="[250,450]" id="min-baths" /><br />
@@ -198,7 +198,7 @@ export const ReactTabs = () => {
                             <div className="col-sm-4">
 
                                 <div className="form-group">
-                                    <label for="property-geo">Property geo (m2) :</label>
+                                    <label htmlFor="property-geo">Property geo (m2) :</label>
                                     <input type="text" className="span2" value="" data-slider-min="0" 
                                             data-slider-max="600" data-slider-step="5" 
                                             data-slider-value="[50,450]" id="property-geo" /><br />
@@ -292,14 +292,14 @@ export const ReactTabs = () => {
                     <div className="row">  
                         <div className="col-sm-6">
                             <div className="form-group">
-                                <label for="property-images">Chose Images :</label>
+                                <label htmlFor="property-images">Chose Images :</label>
                                 <input className="form-control" type="file" id="property-images" />
                                 <p className="help-block">Select multipel images for your property .</p>
                             </div>
                         </div>
                         <div className="col-sm-6"> 
                             <div className="form-group">
-                                <label for="property-video">Property video :</label>
+                                <label htmlFor="property-video">Property video :</label>
                                 <input className="form-control" value="" placeholder="http://www.youtube.com, http://vimeo.com" name="property_video" type="text" />
                             </div> 
 

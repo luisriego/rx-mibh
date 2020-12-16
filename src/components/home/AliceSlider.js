@@ -58,7 +58,7 @@ export const AliceSlider = () => {
                                     <div className="search-row">   
 
                                         <div className="form-group mar-r-20">
-                                            <label for="price-range">Price range ($):</label>
+                                            <label htmlFor="price-range">Price range ($):</label>
                                             <input type="text" className="span2" value="" data-slider-min="0" 
                                                    data-slider-max="600" data-slider-step="5" 
                                                    data-slider-value="[0,450]" id="price-range" /><br />
@@ -67,7 +67,7 @@ export const AliceSlider = () => {
                                         </div>
 
                                         <div className="form-group mar-l-20">
-                                            <label for="property-geo">Property geo (m2) :</label>
+                                            <label htmlFor="property-geo">Property geo (m2) :</label>
                                             <input type="text" className="span2" value="" data-slider-min="0" 
                                                    data-slider-max="600" data-slider-step="5" 
                                                    data-slider-value="[50,450]" id="property-geo" /><br />
@@ -79,7 +79,7 @@ export const AliceSlider = () => {
                                     <div className="search-row">
 
                                         <div className="form-group mar-r-20">
-                                            <label for="price-range">Min baths :</label>
+                                            <label htmlFor="price-range">Min baths :</label>
                                             <input type="text" className="span2" value="" data-slider-min="0" 
                                                    data-slider-max="600" data-slider-step="5" 
                                                    data-slider-value="[250,450]" id="min-baths" /><br />
@@ -88,7 +88,7 @@ export const AliceSlider = () => {
                                         </div>
 
                                         <div className="form-group mar-l-20">
-                                            <label for="property-geo">Min bed :</label>
+                                            <label htmlFor="property-geo">Min bed :</label>
                                             <input type="text" className="span2" value="" data-slider-min="0" 
                                                    data-slider-max="600" data-slider-step="5" 
                                                    data-slider-value="[250,450]" id="min-bed" /><br />

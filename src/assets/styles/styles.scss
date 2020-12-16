@@ -1,6 +1,6 @@
 @import './base/settings';
 
-@import './base//base';
+@import './base/base';
 
 @import '~font-awesome/scss/font-awesome';
 @import '~pe7-icon/dist/scss/pe-icon-7-stroke';
@@ -11,5 +11,6 @@
 
 // components
 @import './components/auth';
+@import './components/main';
 @import './components/navbar';
 @import './components/home';

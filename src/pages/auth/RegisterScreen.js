@@ -47,7 +47,7 @@ export const RegisterScreen = () => {
                             <h2>New account : </h2> 
                             <form onSubmit={handleRegister}>
                                 <div className="form-group">
-                                    <label for="name">Name</label>
+                                    <label htmlFor="name">Name</label>
                                     <input 
                                         type="text" 
                                         className="form-control" 
@@ -56,7 +56,7 @@ export const RegisterScreen = () => {
                                         onChange={ handleRegisterInputChange }/>
                                 </div>
                                 <div className="form-group">
-                                    <label for="email">Email</label>
+                                    <label htmlFor="email">Email</label>
                                     <input 
                                         type="text" 
                                         className="form-control" 
@@ -65,7 +65,7 @@ export const RegisterScreen = () => {
                                         onChange={ handleRegisterInputChange } />
                                 </div>
                                 <div className="form-group">
-                                    <label for="password">Password</label>
+                                    <label htmlFor="password">Password</label>
                                     <input 
                                         type="password" 
                                         className="form-control" 
@@ -87,7 +87,7 @@ export const RegisterScreen = () => {
                             <h2>Login : </h2> 
                             <form onSubmit={handleLogin}>
                                 <div className="form-group">
-                                    <label for="email">Email</label>
+                                    <label htmlFor="email">Email</label>
                                     <input 
                                         type="text" 
                                         className="form-control" 
@@ -96,7 +96,7 @@ export const RegisterScreen = () => {
                                         onChange={ handleInputChange } />
                                 </div>
                                 <div className="form-group">
-                                    <label for="password">Password</label>
+                                    <label htmlFor="password">Password</label>
                                     <input 
                                         type="password" 
                                         className="form-control" 
