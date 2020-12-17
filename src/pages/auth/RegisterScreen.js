@@ -1,14 +1,19 @@
-import React from 'react'
-import { useDispatch } from 'react-redux'
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import validator from 'validator';
 
 import { callEndpointLogin, callEndpointRegister } from '../../actions/auth'
+import { beginLoading, endLoading } from '../../actions/ui';
 import { useForm } from '../../hooks/useForm'
 
 
 
 export const RegisterScreen = () => {
 
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
+    const { loading } = useSelector(state => state.ui);
+console.log(loading);
+    const [alertMessage, setAlertMessage] = useState(null);
 
     const [ formValues, handleInputChange ] = useForm({
         email: '',
@@ -18,23 +23,49 @@ export const RegisterScreen = () => {
     const [ registerValues, handleRegisterInputChange ] = useForm({
         fullName: '',
         mail: '',
-        pass: ''
+        password1: '',
+        password2: '',
     });
 
     const { email, password } = formValues;
-    const { fullName, mail, pass } = registerValues;
+    const { fullName, mail, password1, password2 } = registerValues;
 
     const handleLogin = (e) => {
         e.preventDefault();
 
+        dispatch(beginLoading());
         dispatch(callEndpointLogin(email, password));
+        dispatch(endLoading());
     }
 
     const handleRegister = (e) => {
         e.preventDefault();
 
-        dispatch(callEndpointRegister('Luis Riego', 'luisriego@hotmail.com', 'password'));
-        // console.log(fullName, mail, pass)
+        if ( isFormValid() ) {
+            dispatch(beginLoading());
+            dispatch(callEndpointRegister(fullName, mail, password1));
+            dispatch(endLoading());
+        }
+    }
+
+    // Este método valida los datos del formulario de registro de usuario. 
+    const isFormValid = () => {
+        if ( fullName.trim().length === 0 ) {
+            setAlertMessage('O nome é requerido!');
+            return false;
+        } else if ( !validator.isEmail(mail) ) {
+            setAlertMessage('Por favor intruduza um email válido!');
+            return false;
+        } else if ( password1 !== password2 ) {
+            setAlertMessage('As senhas devem coincidir!');
+            return false;
+        } else if ( password1.length < 6 ) {
+            setAlertMessage('Senha muito curta, por favor introduza 6 carateres mínimo!');
+            return false;
+        }
+
+        setAlertMessage(null);
+        return true;
     }
 
     return (
@@ -44,7 +75,7 @@ export const RegisterScreen = () => {
                 <div className="col-md-6">
                     <div className="box-for overflow">
                         <div className="col-md-12 col-xs-12 register-blocks">
-                            <h2>New account : </h2> 
+                            <h2>Criar nova conta : </h2> 
                             <form onSubmit={handleRegister}>
                                 <div className="form-group">
                                     <label htmlFor="name">Name</label>
@@ -69,13 +100,33 @@ export const RegisterScreen = () => {
                                     <input 
                                         type="password" 
                                         className="form-control" 
-                                        name="pass"
-                                        value={pass}
+                                        name="password1"
+                                        value={password1}
+                                        onChange={ handleRegisterInputChange } />
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="password">Confirm Password</label>
+                                    <input 
+                                        type="password" 
+                                        className="form-control" 
+                                        name="password2"
+                                        value={password2}
                                         onChange={ handleRegisterInputChange } />
                                 </div>
                                 <div className="text-center">
-                                    <button type="submit" className="btn btn-default">Register</button>
+                                    <button 
+                                        disabled={loading}
+                                        type="submit" 
+                                        className="btn btn-default"
+                                    >
+                                        Register
+                                    </button>
                                 </div>
+                                { alertMessage &&
+                                    <div className="alert alert-sm alert-danger mt-1" role="alert">
+                                        { alertMessage }
+                                    </div>
+                                }
                             </form>
                         </div>
                     </div>
@@ -105,7 +156,7 @@ export const RegisterScreen = () => {
                                         onChange={ handleInputChange } />
                                 </div>
                                 <div className="text-center">
-                                    <button type="submit" className="btn btn-default"> Log in</button>
+                                    <button disabled={loading} type="submit" className="btn btn-default"> Log in</button>
                                 </div>
                             </form>
                             <br />

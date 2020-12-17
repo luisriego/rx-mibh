@@ -16,7 +16,7 @@ export const authReducer = (state = {}, action) => {
         case types.register:
             return {
                 id: action.payload.id,
-                username: action.payload.username,
+                name: action.payload.name,
                 email: action.payload.email,
                 roles: action.payload.roles,
                 avatar: action.payload.avatar,
