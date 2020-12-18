@@ -9,9 +9,11 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 @import '~animate.css/animate.css';
 @import '~react-alice-carousel/lib/scss/alice-carousel';
+@import '~icheck/skins/all.css';
 
 // components
 @import './components/auth';
 @import './components/main';
 @import './components/navbar';
 @import './components/home';
+@import './components/submit';

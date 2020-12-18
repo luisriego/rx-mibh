@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import validator from 'validator';
 
 import { callEndpointLogin, callEndpointRegister } from '../../actions/auth'
-import { beginLoading, endLoading } from '../../actions/ui';
+// import { finishLoading, startLoading } from '../../actions/ui';
 import { useForm } from '../../hooks/useForm'
 
 
@@ -12,7 +12,7 @@ export const RegisterScreen = () => {
 
     const dispatch = useDispatch();
     const { loading } = useSelector(state => state.ui);
-console.log(loading);
+
     const [alertMessage, setAlertMessage] = useState(null);
 
     const [ formValues, handleInputChange ] = useForm({
@@ -33,18 +33,18 @@ console.log(loading);
     const handleLogin = (e) => {
         e.preventDefault();
 
-        dispatch(beginLoading());
+        // dispatch(startLoading());
         dispatch(callEndpointLogin(email, password));
-        dispatch(endLoading());
+        // dispatch(finishLoading());
     }
 
     const handleRegister = (e) => {
         e.preventDefault();
 
         if ( isFormValid() ) {
-            dispatch(beginLoading());
+            // dispatch(startLoading());
             dispatch(callEndpointRegister(fullName, mail, password1));
-            dispatch(endLoading());
+            // dispatch(finishLoading());
         }
     }
 

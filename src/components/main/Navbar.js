@@ -1,7 +1,12 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { Link, NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
+
+    const { id } = useSelector(state => state.auth)
+
+
     return (
         <nav className="navbar navbar-default ">
             <div className="container">
@@ -24,8 +29,26 @@ export const Navbar = () => {
 
                 <div className="collapse navbar-collapse yamm" id="navigation">
                     <div className="button navbar-right">
-                        <NavLink className="navbar-btn nav-button wow bounceInRight login navbar__like-button" to="/login">Login</NavLink>
-                        <NavLink className="navbar-btn nav-button wow fadeInRight navbar__like-button" to="/submit_property">Submit</NavLink>
+                        {
+                            !id && 
+                            (<NavLink 
+                                className="navbar-btn nav-button wow bounceInRight login navbar__like-button" 
+                                to="/login"
+                            >
+                                Login
+                            </NavLink>)
+                        }
+                        {
+                            id && 
+                            (<NavLink 
+                                className="navbar-btn nav-button wow bounceInRight login navbar__like-button" 
+                                to="/"
+                            >
+                                Logout
+                            </NavLink>)
+                        }
+                        
+                        <NavLink className="navbar-btn nav-button wow fadeInRight navbar__like-button" to="/submit_property">Quero vender meu imóvel</NavLink>
                     </div>
                     <ul className="main-nav nav navbar-nav navbar-right">
                         <li className="wow fadeInDown" data-wow-delay="0.2s">

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+// import { useDispatch } from 'react-redux';
 import {
     BrowserRouter as Router,
     Switch,
@@ -11,7 +12,19 @@ import { Navbar } from '../components/main/Navbar';
 
 import { MainScreen } from '../pages/MainScreen';
 
+
 export const AppRouter = () => {
+
+    // Esto va ha captar los cambios en el state (login, logout, cambio id ...)
+    // const dispatch = useDispatch
+    // useEffect(() => {
+    //     getUser(token) => {
+    //         if ( token? ) {
+    //             dispatch( docodeToken(token) )
+    //         }
+    //     }
+    // }, [])
+
     return (
         <Router>
             <div>

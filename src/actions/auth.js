@@ -1,4 +1,5 @@
 import { types } from "../types/types"
+import { finishLoading, startLoading } from "./ui"
 
 
 export const login = (iat, exp, username, id) => {
@@ -28,7 +29,8 @@ export const register = (id, name, email, roles, avatar, active) => {
 }
 
 export const callEndpointLogin = (username, password) => {
-    return (dispatch) => {      
+    return (dispatch) => {
+        dispatch( startLoading() );     
         setTimeout(() => {
             dispatch(
                 login(
@@ -37,13 +39,15 @@ export const callEndpointLogin = (username, password) => {
                     'santi@api.com',
                     '9b5d7260-58f7-4f31-95c1-7d80da443e74',
                 )
-            )
+            );
+            dispatch( finishLoading() );
         }, 3500);
     }
 }
 
 export const callEndpointRegister = (name, username, password) => {
     return (dispatch) => {
+        dispatch( startLoading() );
         setTimeout(() => {
             dispatch(
                 register(
@@ -55,6 +59,7 @@ export const callEndpointRegister = (name, username, password) => {
                     false,
                 )
             );
+            dispatch( finishLoading() );
         }, 1500);
     }
 }
